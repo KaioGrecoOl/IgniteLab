@@ -13,9 +13,22 @@ export function Video() {
               <h1 className="text-2xl font-bold">
                 Aula 01 - Abertura do Ignite Lab
               </h1>
-              <p className="mt-4 text-gray-200">
+              <p className="mt-4 text-gray-200 leading-relaxed">
                 Nessa aula vamos dar início ao projeto criando a estrutura base da aplicação utilizando ReactJS, Vite e TailwindCSS. Vamos também realizar o setup do nosso projeto no GraphCMS criando as entidades da aplicação e integrando a API GraphQL gerada pela plataforma no nosso front-end utilizando Apollo Client.
               </p>
+
+              <div className="flex items-center gap-4 at-6">
+                <img
+                  className="h-16 w-16 rounded-full border-2 border-blue-500" 
+                  src="https://github.com/KaioGrecoOl/" 
+                  alt="" 
+                />
+
+                <div className="leading-relaxed">
+                  <strong className="font-bold text-2xl block">Kaio Greco</strong>
+                  <span className="text-gray-200 text-sm block">Estudante de desenvolvimento</span>
+                </div>
+              </div>
             </div>
     
             <div className="flex flex-col gap-4">
